@@ -91,6 +91,12 @@ var PANTONE_YEAR_COLORS = {
         "PANTONE 19-1557": "#9B1B30",
         "19-1557": "#9B1B30",
         "2007": "#9B1B30",
+        "2008 Blue Izis": "#5B5EA6",
+        "2008 blue izis": "#5B5EA6",
+        "Blue Izis": "#5B5EA6",
+        "blue izis": "#5B5EA6",
+        "Blue Izis 2008": "#5B5EA6",
+        "blue izis 2008": "#5B5EA6",
         "Blue Iris": "#5A5B9F",
         "blue iris": "#5A5B9F",
         "Pantone 18-3943": "#5A5B9F",
@@ -290,6 +296,277 @@ var PantoneYearColors = {
 	getColorsList:function() {
 	    return PANTONE_YEAR_COLORS_LIST;
 	}
+};
+
+
+var PANTONE_COLOR_GROUPS = {
+    HottestSpringColors2018: {
+        names: [
+            "Meadowlark",
+            "Cherry Tomato",
+            "Little Boy Blue",
+            "Chili Oil",
+            "Pink Lavender",
+            "Blooming Dahlia",
+            "Arcadia",
+            "Ultra Violet",
+            "Emperador",
+            "Almost Mauve",
+            "Spring Crocus",
+            "Lime Punch"
+        ],
+        colors: [
+            "#ECDB54",
+            "#E94B3C",
+            "#6F9FD8",
+            "#944743",
+            "#DBB1CD",
+            "#EC9787",
+            "#00A591",
+            "#6B5B95",
+            "#6C4F3D",
+            "#EADEDB",
+            "#BC70A4",
+            "#BFD641"
+        ],
+        pantones: [
+            "Pantone 13-0646",
+            "Pantone 17-1563",
+            "Pantone 16-4132",
+            "Pantone 18-1440",
+            "Pantone 14-3207",
+            "Pantone 15-1520",
+            "Pantone 16-5533",
+            "Pantone 18-3838",
+            "Pantone 18-1028",
+            "Pantone 12-2103",
+            "Pantone 17-3020",
+            "Pantone 13-0550"
+        ]
+    },
+    Spring2008ClassicColors: {
+        names: [
+            "Sailor Blue",
+            "Harbor Mist",
+            "Warm Sand",
+            "Coconut Milk",
+            "Color of the Year 2017"
+        ],
+        colors: [
+            "#2E4A62",
+            "#B4B7BA",
+            "#C0AB8E",
+            "#F0EDE5",
+            "#92B558"
+        ],
+        pantones: [
+            "Pantone 19-4034",
+            "Pantone 14-4202",
+            "Pantone 15-1214",
+            "Pantone 11-0608",
+            "Pantone 15-0343"
+        ]
+    },
+    HottestFallColors2017: {
+        names: [
+            "Grenadine",
+            "Tawny Port",
+            "Ballet Slipper",
+            "Butterum",
+            "Navy Peony",
+            "Neutral Gray",
+            "Shaded Spruce",
+            "Golden Lime",
+            "Marina",
+            "Autumn Maple"
+        ],
+        colors: [
+            "#DC4C46",
+            "#672E3B",
+            "#F3D6E4",
+            "#C48F65",
+            "#223A5E",
+            "#898E8C",
+            "#005960",
+            "#9C9A40",
+            "#4F84C4",
+            "#D2691E"
+        ],
+        pantones: [
+            "Pantone 17-1558",
+            "Pantone 19-1725",
+            "Pantone 13-2808",
+            "Pantone 16-1341",
+            "Pantone 19-4029",
+            "Pantone 17-4402",
+            "Pantone 19-4524",
+            "Pantone 16-0543",
+            "Pantone 17-4041",
+            "Pantone 17-1145"
+        ]
+    },
+    TenHottestSpringColors2017: {
+        names: [
+            "Niagara",
+            "Primrose Yellow",
+            "Lapis Blue",
+            "Flame",
+            "Island Paradise",
+            "Pale Dogwood",
+            "Pink Yarrow",
+            "Kale",
+            "Hazelnut"
+        ],
+        colors: [
+            "#578CA9",
+            "#F6D155",
+            "#004B8D",
+            "#F2552C",
+            "#95DEE3",
+            "#EDCDC2",
+            "#CE3175",
+            "#5A7247",
+            "#CFB095"
+        ],
+        pantones: [
+            "Pantone 17-4123",
+            "Pantone 13-0755",
+            "Pantone 19-4045",
+            "Pantone 17-1462",
+            "Pantone 14-4620",
+            "Pantone 13-1404",
+            "Pantone 17-2034",
+            "Pantone 18-0107",
+            "Pantone 14-1315"
+        ]
+    },
+    TenHottestFallColors2016: {
+        names: [
+            "Riverside",
+            "Airy Blue",
+            "Sharkskin",
+            "Aurora Red",
+            "Warm Taupe",
+            "Dusty Cedar",
+            "Lush Meadow",
+            "Spicy Mustard",
+            "Potter's Clay",
+            "Bodacious"
+        ],
+        colors: [
+            "#4C6A92",
+            "#92B6D5",
+            "#838487",
+            "#B93A32",
+            "#AF9483",
+            "#AD5D5D",
+            "#006E51",
+            "#D8AE47",
+            "#9E4624",
+            "#B76BA3"
+        ],
+        pantones: [
+            "Pantone 17-4028",
+            "Pantone 14-4122",
+            "Pantone 17-3914",
+            "Pantone 18-1550",
+            "Pantone 16-1318",
+            "Pantone 18-1630",
+            "Pantone 18-5845",
+            "Pantone 14-0952",
+            "Pantone 18-1340",
+            "Pantone 17-3240"
+        ]
+    },
+    TenHottestSpringColors2016: {
+        names: [
+            "Rose Quartz",
+            "Peach Echo",
+            "Serenity",
+            "Snorkel Blue",
+            "Limpet Shell",
+            "Lilac Grey",
+            "Iced Coffee",
+            "Fiesta",
+            "Buttercup"
+        ],
+        colors: [
+            "#F7CAC9",
+            "#F7786B",
+            "#91A8D0",
+            "#034F84",
+            "#98DDDE",
+            "#9896A4",
+            "#B18F6A",
+            "#DD4132",
+            "#FAE03C"
+        ]
+    },
+    ColorsOfYear2000To2017: {
+        names: [
+            "2017 Greenery",
+            "2016 Rose Quartz",
+            "2016 Serenity",
+            "2015 Marsala",
+            "2014 Radiand Orchid",
+            "2013 Emerald",
+            "2012 Tangerine Tango",
+            "2011 Honeysucle",
+            "2010 Turquoise",
+            "2009 Mimosa",
+            "2008 Blue Izis",
+            "2007 Chili Pepper",
+            "2006 Sand Dollar",
+            "2005 Blue Turquoise",
+            "2004 Tigerlily",
+            "2003 Aqua Sky",
+            "2002 True Red",
+            "2001 Fuchsia Rose",
+            "2000 Cerulean Blue"
+        ],
+        colors: [
+            "#88B04B",
+            "#F7CAC9",
+            "#92A8D1",
+            "#955251",
+            "#B565A7",
+            "#009B77",
+            "#DD4124",
+            "#D65076",
+            "#45B8AC",
+            "#EFC050",
+            "#5B5EA6",
+            "#9B2335",
+            "#DFCFBE",
+            "#55B4B0",
+            "#E15D44",
+            "#7FCDCD",
+            "#BC243C",
+            "#C3447A",
+            "#98B4D4"
+        ],
+        pantones: [
+            "Pantone 15-0343",
+            "Pantone 13-1520",
+            "Pantone 15-3919",
+            "Pantone 18-1438",
+            "Pantone 18-3224",
+            "Pantone 17-5641",
+            "Pantone 17-1463",
+            "Pantone 18-2120",
+            "Pantone 15-5510",
+            "Pantone 14-0848",
+            "Pantone 18-3943",
+            "Pantone 19-1557",
+            "Pantone 13-1106",
+            "Pantone 15-5217",
+            "Pantone 17-1456",
+            "Pantone 14-4811",
+            "Pantone 19-1664",
+            "Pantone 17-2031",
+            "Pantone 15-4020"
+        ]
+    }
 };
 
 if (!window["SereniX"])
@@ -1390,26 +1667,30 @@ SereniX.Pantone = {
             toks[toks.length] = n.substring(o);
         }
         l = toks.length;
-        var up = "", lo = "", hyp = "", tok;
+        var up = "", lo = "", hyp = "", tok, cName;
         for (var k = 0; k < l; k++) {
             tok = toks[k];
             if (k > 0) {
                 up += "_";
                 lo += "_";
                 hyp += "-";
+                cName += " ";
             }
             up += tok.toUpperCase();
             lo += tok.toLowerCase();
-            lo += tok.toLowerCase();
+            hyp += tok.toLowerCase();
+            cName += tok;
             
         }
         names[names.length] = n;
+        names[names.length] = cName;
         names[names.length] = up;
         names[names.length] = lo;
         names[names.length] = hyp;
         names[names.length] = aliases[i];
         colors[i] = c;
         cm[n] = c;
+        cm[cName] = c;
         cm[n.toLowerCase()] = c;
         cm[n.toUpperCase()] = c;
         cm[up] = c;
@@ -1422,8 +1703,40 @@ SereniX.Pantone = {
     p.Spring2016_ALL_NAMES = cm.ALL_NAMES = names;
     p.Spring2016_NAMES = cm.NAMES = aliases;
     p.Spring2016_CLASS_NAMES = cm.CLASS_NAMES = classNames;
+    p["COLOR_GROUPS"] = PANTONE_COLOR_GROUPS;
+    var grp, _pantones, name, count, col;
+    for (var n in PANTONE_COLOR_GROUPS) {
+        grp = PANTONE_COLOR_GROUPS[n];
+        names = grp.names;
+        colors = grp.colors;
+        _pantones = grp.pantones;
+        if (Array.isArray(_pantones)) {
+            count = _pantones.length;
+            for (var i = 0; i < count; i++) {
+                name = names[i];
+                col = colors[i];
+                if (!p.COLORS[name]) {
+                    p.COLORS[name] = col;
+                    p.COLORS[name.toUpperCase()] = col;
+                    p.COLORS[name.toLowerCase()] = col;
+                }
+                if (p.COLORS_LIST.indexOf(col) < 0)
+                    p.COLORS_LIST[p.COLORS_LIST.length] = col;
+            }
+            
+            count = _pantones.length;
+            for (var i = 0; i < count; i++) {
+                name = _pantones[i];
+                if (!p.COLORS[name]) {
+                    p.COLORS[name] = colors[i];
+                    p.COLORS[name.toUpperCase()] = colors[i];
+                    p.COLORS[name.toLowerCase()] = colors[i];
+                }
+            }
+        }
+    }
     p.get=function(name) {
-        var c = this.COLORS[name];
+        var c = SereniX.Pantone.COLORS[name];
         if (c) return c;
         c = SereniX.PantoneYearColors[name];
         if (c) return c;
