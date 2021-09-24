@@ -8,7 +8,7 @@ serenix_pantone_color.js is javascript pantone color utilities that provides the
 - PANTONE_STRING_YEARS : The pantone years in string managed in this utility
 - PANTONE_YEAR_COLOR_NAMES : The names of pantones years
 - PantoneYearColors
-    Provides the main methods below: 
+    PantoneYearColors object provides the main methods below: 
   - getColor
   - getColorName
   - getStringYear
